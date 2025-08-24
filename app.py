@@ -36,7 +36,7 @@ from langchain_community.utilities import SerpAPIWrapper
 ###############################################################################
 # App Setup
 ###############################################################################
-APP_TITLE = "Smart Coding Copilot (Agent + Tools + Memory)"
+APP_TITLE = "Smart Coding Copilot "
 MEMORY_FILE = "copilot_memory.json"  # persistent memory on disk
 MAX_ERROR_MEMORY = 200  # max stored error records
 
@@ -344,3 +344,4 @@ st.caption(
     "Tip: Use the **Run Code** pane to reproduce errors. The agent reads your recent "
     "errors and style to tailor suggestions, and it can also use web_search when needed."
 )
+
